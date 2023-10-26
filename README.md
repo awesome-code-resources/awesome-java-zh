@@ -86,7 +86,7 @@
 
 ### Bean映射
 
-_ 简化bean映射的框架。_ 
+_简化bean映射的框架。_ 
 
 - [dOOv](https://github.com/doov-io/doov)-为类型安全域模型验证和映射提供fluent API。它使用注释，代码生成和类型安全的DSL，使bean验证和映射快速和容易。
 - [JMapper](https://github.com/jmapper-framework/jmapper-core)-使用字节码操作闪电快速映射。支持注释和API或XML配置。
@@ -97,7 +97,7 @@ _ 简化bean映射的框架。_
 - [Selma](https://github.com/xebia-france/selma)-基于注释处理器的bean映射器。
 ### 构建
 
-_ 处理应用程序的生成周期和依赖项的工具。_ 
+_处理应用程序的生成周期和依赖项的工具。_ 
 
 - [Apache Maven](https://maven.apache.org)-声明式构建和依赖管理，有利于约定而不是配置。它可能比Apache Ant更可取，后者使用相当程序化的方法，并且可能难以维护。
 - [Bazel](https://bazel.build)-来自Google的工具，可快速可靠地构建代码。
@@ -105,7 +105,7 @@ _ 处理应用程序的生成周期和依赖项的工具。_
 - [Gradle](https://gradle.org)-通过Groovy而不是声明XML编程的增量构建。适用于Maven的依赖管理。
 ### 字节码操作
 
-_ 库以编程方式操作字节码。_ 
+_库以编程方式操作字节码。_ 
 
 - [ASM](https://asm.ow2.io)-通用，低级别的字节码操作和分析。
 - [Byte Buddy](https://bytebuddy.net)-使用fluent API进一步简化字节码生成。
@@ -119,7 +119,7 @@ _ 库以编程方式操作字节码。_
 - [Recaf](https://www.coley.software/Recaf/)-JVM逆向工程工具包，本质上是Java字节码的IDE。
 ### 缓存
 
-_ 提供缓存设施的库。_ 
+_提供缓存设施的库。_ 
 
 - [cache2k](https://cache2k.org)-内存中的高性能缓存库。
 - [Caffeine](https://github.com/ben-manes/caffeine)-高性能，接近最佳的缓存库。
@@ -127,7 +127,7 @@ _ 提供缓存设施的库。_
 - [Infinispan](https://infinispan.org)-用于缓存的高度并发的键/值数据存储。
 ### CLI
 
-_ 与CLI相关的所有内容的库。_ 
+_与CLI相关的所有内容的库。_ 
 
 - [ASCII Table](https://github.com/vdmeer/asciitable)-库以ASCII格式绘制表。
 - [Airline](https://github.com/airlift/airline)-基于注释的框架，用于解析类似Git的命令行参数。
@@ -144,13 +144,13 @@ _ 与CLI相关的所有内容的库。_
 - [Lanterna](https://github.com/mabe02/lanterna)-简单的控制台文本GUI库，类似于诅咒。(LGPL-3.0-only)
 ### 群集管理
 
-_ 可以动态管理集群内的应用程序的框架。_ 
+_可以动态管理集群内的应用程序的框架。_ 
 
 - [Apache Aurora](https://aurora.apache.org)-用于长时间运行的服务和cron作业的Mesos框架。
 - [Singularity](http://getsingularity.com)-Mesos框架，使部署和操作变得容易。它支持web服务、后台工作人员、计划作业和一次性任务。
 ### 代码分析
 
-_ 提供度量和质量度量的工具。_ 
+_提供度量和质量度量的工具。_ 
 
 - [Checkstyle](https://github.com/checkstyle/checkstyle)-编码约定和标准的静态分析。(LGPL-2.1-or-later)
 - [Error Prone](https://github.com/google/error-prone)-捕获常见的编程错误作为编译时错误。
@@ -166,14 +166,14 @@ _ 提供度量和质量度量的工具。_
 - [Spotbugs](https://github.com/spotbugs/spotbugs)-字节码的静态分析，以发现潜在的错误。(LGPL-2.1-only)
 ### 代码覆盖率
 
-_ 为测试套件启用代码覆盖率指标收集的框架和工具。_ 
+_为测试套件启用代码覆盖率指标收集的框架和工具。_ 
 
 - [Clover](https://www.atlassian.com/software/clover)-依赖于源代码工具而不是字节码工具。
 - [Cobertura](https://cobertura.github.io/cobertura/)-依靠离线 (或静态) 字节码检测和类加载来收集代码覆盖率指标。(GPL-2.0-only)
 - [JaCoCo](https://www.eclemma.org/jacoco/)-允许使用离线和运行时字节码工具收集代码覆盖率指标的框架。
 ### 代码生成器
 
-_ 为重复代码生成模式以减少冗长和错误倾向的工具。_ 
+_为重复代码生成模式以减少冗长和错误倾向的工具。_ 
 
 - [ADT4J](https://github.com/sviperll/adt4j)-代数数据类型的JSR-269代码生成器。
 - [Auto](https://github.com/google/auto)-生成工厂、服务和值类。
@@ -191,21 +191,21 @@ _ 为重复代码生成模式以减少冗长和错误倾向的工具。_
 - [Telosys](https://www.telosys.org/)-简单而轻便的代码生成器可作为Eclipse插件和CLI使用。
 ### 编译器-编译器
 
-_ 帮助创建解析器、解释器或编译器的框架。_ 
+_帮助创建解析器、解释器或编译器的框架。_ 
 
 - [ANTLR](https://www.antlr.org)-复杂的自上而下的解析功能齐全的框架。
 - [JavaCC](https://javacc.github.io/javacc/)-生成自顶向下解析器的解析器生成器。允许词法状态切换，并允许扩展的BNF规范。
 - [JFlex](https://jflex.de)-词法分析器生成器。
 ### 计算机视觉
 
-_ 寻求从图像和视频中获取高级信息的库。_ 
+_寻求从图像和视频中获取高级信息的库。_ 
 
 - [BoofCV](https://boofcv.org)-用于图像处理，相机校准，跟踪，SFM，MVS，3D视觉，QR码等的库。
 - [ImageJ](https://imagej.net/ImageJ)-具有API的医学图像处理应用程序。
 - [JavaCV](https://github.com/bytedeco/javacv)-Java接口OpenCV，FFmpeg，以及更多。
 ### 配置
 
-_ 提供外部配置的库。_ 
+_提供外部配置的库。_ 
 
 - [avaje config](https://avaje.io/config/)-加载yaml和属性文件，支持动态配置，插件，文件监视和配置事件侦听器。
 - [centraldogma](https://github.com/line/centraldogma)-基于Git、ZooKeeper和HTTP/2的高可用版本控制服务配置库。
@@ -221,7 +221,7 @@ _ 提供外部配置的库。_
 - [owner](https://github.com/lviggiano/owner)-减少属性的样板。
 ### 约束满足问题求解器
 
-_ 帮助实现优化和可满足性问题的库。_ 
+_帮助实现优化和可满足性问题的库。_ 
 
 - [Choco](https://choco-solver.org)-使用约束编程技术的现成的约束满足问题求解器。
 - [JaCoP](https://github.com/radsz/jacop)-包括FlatZinc语言的接口，使其能够执行MiniZinc模型。(AGPL-3.0)
@@ -229,7 +229,7 @@ _ 帮助实现优化和可满足性问题的库。_
 - [Timefold](https://github.com/TimefoldAI/timefold-solver)-具有Spring/Quarkus支持和快速入门的灵活求解器，用于解决车辆路线问题，维护计划，员工轮班计划等。
 ### CSV
 
-_ 简化读取/写入CSV数据的框架和库。_ 
+_简化读取/写入CSV数据的框架和库。_ 
 
 - [FastCSV](https://github.com/osiegmar/FastCSV)-性能优化，无依赖和RFC 4180兼容。
 - [jackson-dataformat-csv](https://github.com/FasterXML/jackson-dataformat-csv)-用于读取和写入CSV的Jackson扩展。
@@ -238,7 +238,7 @@ _ 简化读取/写入CSV数据的框架和库。_
 - [uniVocity-parsers](https://github.com/uniVocity/univocity-parsers)-最快和最完整的功能解析器之一。还带有用于TSV和固定宽度记录的解析器。
 ### 数据结构
 
-_ 高效和具体的数据结构。_ 
+_高效和具体的数据结构。_ 
 
 - [Apache Avro](https://avro.apache.org)-具有动态类型，未标记数据以及缺少手动分配的id的数据交换格式。
 - [Apache Orc](https://orc.apache.org)-快速高效的列式存储格式，适用于基于Hadoop的工作负载。
@@ -254,7 +254,7 @@ _ 高效和具体的数据结构。_
 - [Wire](https://github.com/square/wire)-干净，轻量级的协议缓冲区。
 ### 数据库
 
-_ 简化与数据库交互的一切。_ 
+_简化与数据库交互的一切。_ 
 
 - [Apache Calcite](https://calcite.apache.org)-动态数据管理框架。它包含许多组成典型数据库管理系统的部分。
 - [Apache Drill](https://drill.apache.org)-用于大数据探索的分布式模式即时ANSI SQL查询引擎。
@@ -296,7 +296,7 @@ _ 简化与数据库交互的一切。_
 - [CosId](https://github.com/Ahoo-Wang/CosId)-通用，灵活，高性能的分布式ID生成器。
 ### 日期和时间
 
-_ 与处理日期和时间相关的库。_ 
+_与处理日期和时间相关的库。_ 
 
 - [iCal4j](https://github.com/ical4j/ical4j)-解析和构建iCalendar[RFC 5545](https://tools.ietf.org/html/rfc5545)数据模型。
 - [Jollyday](https://github.com/svendiedrichsen/jollyday)-确定给定年份，国家/地区和最终州/地区的假期。
@@ -304,7 +304,7 @@ _ 与处理日期和时间相关的库。_
 - [Time4J](https://github.com/MenoData/Time4J)-先进的日期和时间库。(LGPL-2.1-only)
 ### 依赖注入
 
-_ 有助于实现[Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm._ 
+_有助于实现[Inversion of Control](https://en.wikipedia.org/wiki/Inversion_of_control) paradigm._ 
 
 - [Apache DeltaSpike](https://deltaspike.apache.org)-CDI扩展框架。
 - [Avaje Inject](https://avaje.io/inject/)-专注于微服务的编译时注入框架，无需反射。
@@ -316,7 +316,7 @@ _ 有助于实现[Inversion of Control](https://en.wikipedia.org/wiki/Inversion_
 - [JayWire](https://github.com/vanillasource/jaywire)-轻量级的依赖注入框架。(LGPL-3.0-only)
 ### 发展
 
-_ 在基本层面上增强开发过程。_ 
+_在基本层面上增强开发过程。_ 
 
 - [AspectJ](https://www.eclipse.org/aspectj/)-无缝的面向方面的编程扩展。
 - [DCEVM](https://dcevm.github.io)-JVM修改，允许在运行时无限制地重新定义加载的类。(GPL-2.0-only)
@@ -330,7 +330,7 @@ _ 在基本层面上增强开发过程。_
 - [Tail](https://nrktkt.github.io/tail/)-使用尾调用优化启用无限递归。
 ### 分布式应用程序
 
-_ 用于编写分布式和容错应用程序的库和框架。_ 
+_用于编写分布式和容错应用程序的库和框架。_ 
 
 - [Apache Geode](https://geode.apache.org)-内存数据管理系统，提供可靠的异步事件通知和有保证的消息传递。
 - [Apache Storm](https://storm.apache.org)-实时计算系统。
@@ -348,7 +348,7 @@ _ 用于编写分布式和容错应用程序的库和框架。_
 - [Zuul](https://github.com/Netflix/zuul)-提供动态路由、监控、弹性、安全性等功能的网关服务。
 ### 分布式事务
 
-_ 分布式事务提供了一种机制，用于在存在并发访问和部分故障的情况下确保数据更新的一致性。_ 
+_分布式事务提供了一种机制，用于在存在并发访问和部分故障的情况下确保数据更新的一致性。_ 
 
 - [Atomikos](https://www.atomikos.com)-为REST，SOA和微服务提供事务，并支持JTA和XA。
 - [Bitronix](https://github.com/bitronix/btm)-JTA 1.1 API的简单但完整的实现。
@@ -356,7 +356,7 @@ _ 分布式事务提供了一种机制，用于在存在并发访问和部分故
 - [Seata](https://github.com/seata/seata)-在微服务架构下提供高性能和易于使用的分布式事务服务。
 ### 分布
 
-_ 处理以本机格式分发应用程序的工具。_ 
+_处理以本机格式分发应用程序的工具。_ 
 
 - [Artipie](https://github.com/artipie/artipie)-二进制工件管理工具包，将它们托管在文件系统或s3上。
 - [Boxfuse ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://boxfuse.com)-使用不可变基础设施的原则将JVM应用程序部署到AWS。
@@ -373,7 +373,7 @@ _ 处理以本机格式分发应用程序的工具。_
 - [really-executable-jars-maven-plugin](https://github.com/brianm/really-executable-jars-maven-plugin)-用于制作自执行jar的Maven插件。
 ### 文档处理
 
-_ 协助处理office文档格式的库。_ 
+_协助处理office文档格式的库。_ 
 
 - [Apache POI](https://poi.apache.org)-支持OOXML (XLSX，DOCX，PPTX) 以及OLE2 (XLS，DOC或PPT)。
 - [documents4j](https://documents4j.com/#/)-使用第三方转换器 (如MS Word) 进行文档格式转换的API。
@@ -382,7 +382,7 @@ _ 协助处理office文档格式的库。_
 - [zerocell](https://github.com/creditdatamw/zerocell)-基于注释的API，用于将数据从Excel工作表读取到pojo中，重点是减少开销。
 ### 财务
 
-_ 与金融领域相关的库。_ 
+_与金融领域相关的库。_ 
 
 - [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot)-交易bot框架。
 - [Parity](https://github.com/paritytrading/parity)-交易场所平台。
@@ -392,7 +392,7 @@ _ 与金融领域相关的库。_
 - [ta4j](https://github.com/ta4j/ta4j)-技术分析库。
 ### 形式验证
 
-_ 形式方法工具: 证明助手、模型检查、符号执行等。_ 
+_形式方法工具: 证明助手、模型检查、符号执行等。_ 
 
 - [CATG](https://github.com/ksen007/janala2)-Concoric单元测试引擎。使用正式方法自动生成单元测试。
 - [Checker Framework](https://checkerframework.org)-可插拔型系统。包括nullness类型、物理单位、不变性类型等。(GPL-2.0-only与Classpath-exception-2.0)
@@ -403,7 +403,7 @@ _ 形式方法工具: 证明助手、模型检查、符号执行等。_
 - [OpenJML](http://www.openjml.org)-将JML规范转换为smt-lib格式，并将程序暗示的证明问题传递给后端求解器。(GPL-2.0-only)
 ### 函数式编程
 
-_ 便于函数式编程的库。_ 
+_便于函数式编程的库。_ 
 
 - [Cyclops](https://github.com/aol/cyclops)-Monad和流实用程序，理解，模式匹配，所有JDK集合的功能扩展，未来流，蹦床等等。
 - [derive4j](https://github.com/derive4j/derive4j)-Java 8注释处理器和框架，用于导出代数数据类型构造函数，模式匹配和态射。(GPL-3.0-only)
@@ -415,7 +415,7 @@ _ 便于函数式编程的库。_
 - [Vavr](https://www.vavr.io)-提供持久数据类型和功能控制结构的功能组件库。
 ### 游戏开发
 
-_ 支持游戏开发的框架。_ 
+_支持游戏开发的框架。_ 
 
 - [FXGL](https://almasb.github.io/FXGL/)JavaFX游戏开发框架。
 - [JBox2D](http://www.jbox2d.org/)-著名的C 2D物理引擎的端口。
@@ -427,7 +427,7 @@ _ 支持游戏开发的框架。_
 - [Void2D](https://github.com/xzripper/Void2D)-基于Swing的内置物理的高级2D游戏引擎。
 ### 地理空间
 
-_ 用于处理地理空间数据和算法的库。_ 
+_用于处理地理空间数据和算法的库。_ 
 
 - [Apache SIS](https://sis.apache.org)-开发地理空间应用程序的库。
 - [Geo](https://github.com/davidmoten/geo)-Java中的GeoHash实用程序。
@@ -439,14 +439,14 @@ _ 用于处理地理空间数据和算法的库。_
 - [Spatial4j](https://github.com/locationtech/spatial4j)-通用空间/地理空间库。
 ### GUI
 
-_ 库来创建现代图形用户界面。_ 
+_库来创建现代图形用户界面。_ 
 
 - [JavaFX](https://wiki.openjdk.java.net/display/OpenJFX/Main)-Swing的继任者.
 - [Scene Builder](https://gluonhq.com/products/scene-builder/)-用于JavaFX应用程序的可视化布局工具。
 - [SWT](https://www.eclipse.org/swt/)-图形小部件工具包。
 ### 高性能
 
-_ 关于高性能计算的一切，从集合到特定的库。_ 
+_关于高性能计算的一切，从集合到特定的库。_ 
 
 - [Agrona](https://github.com/real-logic/Agrona)-高性能应用程序中常见的数据结构和实用程序方法。
 - [Disruptor](https://lmax-exchange.github.io/disruptor/)-线程间消息传递库。
@@ -457,7 +457,7 @@ _ 关于高性能计算的一切，从集合到特定的库。_
 - [Koloboke](https://github.com/leventov/Koloboke)-精心设计的Java集合框架的扩展，具有原始的专业化和更多。
 ### HTTP客户端
 
-_ 帮助创建HTTP请求和/或绑定响应的库。_ 
+_帮助创建HTTP请求和/或绑定响应的库。_ 
 
 - [Apache HttpComponents](https://hc.apache.org/)-专注于HTTP和相关协议的低级Java组件的工具集。
 - [Async Http Client](https://github.com/AsyncHttpClient/async-http-client)-异步HTTP和WebSocket客户端库。
@@ -471,14 +471,14 @@ _ 帮助创建HTTP请求和/或绑定响应的库。_
 - [unirest-java](https://github.com/Kong/unirest-java)-简化，轻量级的HTTP客户端库。
 ### 超媒体类型
 
-_ 处理超媒体类型序列化的库。_ 
+_处理超媒体类型序列化的库。_ 
 
 - [hate](https://github.com/blackdoor/hate)-根据HAL规范构建超媒体友好的对象。
 - [JSON-LD](https://github.com/jsonld-java/jsonld-java)-JSON-LD实现。
 - [Siren4J](https://github.com/eserating-chwy/siren4j)-警报器规范库。
 ### IDE
 
-_ 集成开发环境，试图简化开发的几个方面。_ 
+_集成开发环境，试图简化开发的几个方面。_ 
 
 - [Eclipse](https://www.eclipse.org)-建立了支持大量插件和语言的开源项目。
 - [IntelliJ IDEA ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://www.jetbrains.com/idea/)-支持许多JVM语言，并为Android开发提供了很好的选择。商业版针对企业部门。
@@ -487,7 +487,7 @@ _ 集成开发环境，试图简化开发的几个方面。_
 - [Visual Studio Code](https://code.visualstudio.com/docs/languages/java)-通过使用内部市场的扩展，为轻量级项目提供Java支持，并提供简单的现代工作流。
 ### 图像
 
-_ 帮助创建、评估或处理图形图像的库。_ 
+_帮助创建、评估或处理图形图像的库。_ 
 
 - [Imgscalr](https://github.com/rkalla/imgscalr)-在纯Java 2D中实现的简单，高效和硬件加速的图像缩放库。
 - [Tess4J](https://github.com/nguyenq/tess4j)-Tesseract OCR API的JNA包装器。
@@ -497,7 +497,7 @@ _ 帮助创建、评估或处理图形图像的库。_
 - [image-comparison](https://github.com/romankh3/image-comparison)-比较具有相同大小的2个图像的库，并通过绘制矩形在视觉上显示差异。可以从比较中排除图像的一些部分。
 ### 内省
 
-_ 有助于使Java自省和反射API更容易和更快地使用的库。_ 
+_有助于使Java自省和反射API更容易和更快地使用的库。_ 
 
 - [ClassGraph](https://github.com/classgraph/classgraph)ClassGraph (以前称为FastClasspathScanner) 是用于Java，Scala，Kotlin和其他JVM语言的超快，超轻，并行化的类路径扫描仪和模块扫描仪。
 - [jOOR](https://github.com/jOOQ/jOOR)jOOR代表jOOR面向对象的反射。它是java.lang.reflect包的简单包装。
@@ -507,7 +507,7 @@ _ 有助于使Java自省和反射API更容易和更快地使用的库。_
 - [Reflections](https://github.com/ronmamo/reflections)-反射扫描您的类路径，索引元数据，允许您在运行时查询它，并可以保存和收集项目中许多模块的信息。
 ### 作业调度
 
-_ 用于调度后台作业的库。_ 
+_用于调度后台作业的库。_ 
 
 - [JobRunr](https://github.com/jobrunr/jobrunr)-作业调度库，它利用lambdas进行fire-and-forget，延迟和重复的作业。使用乐观锁定保证由单个调度程序实例执行。具有持久性，最小依赖性和可嵌入的功能。
 - [Quartz](https://github.com/quartz-scheduler/quartz)-功能丰富的开源作业调度库，可以集成在几乎任何Java应用程序中。
@@ -518,7 +518,7 @@ _ 用于调度后台作业的库。_
 - [shedlock](https://github.com/lukas-krecan/ShedLock)-确保您的计划任务在同一时间最多执行一次。如果任务正在一个节点上执行，则它获取一个锁，该锁阻止从另一个节点或线程执行相同的任务。
 ### JSON
 
-_ 用于将JSON与Java对象进行序列化和反序列化的库。_ 
+_用于将JSON与Java对象进行序列化和反序列化的库。_ 
 
 - [Avaje Jsonb](https://avaje.io/jsonb/)-通过使用类似Jackson的注释生成源代码进行无反射的Json绑定。
 - [DSL-JSON](https://github.com/ngs-doo/dsl-json)-具有高级编译时数据绑定的JSON库。
@@ -539,7 +539,7 @@ _ 用于将JSON与Java对象进行序列化和反序列化的库。_
 - [JsonSurfer](https://github.com/jsurfer/JsonSurfer)-流JsonPath处理器专用于处理大而复杂的JSON数据。
 ### JVM和JDK
 
-_ JVM/JDK的当前实现。_ 
+_JVM/JDK的当前实现。_ 
 
 - [Adopt Open JDK](https://adoptopenjdk.net)-社区驱动的OpenJDK构建，包括HotSpot和openj9。
 - [Avian](https://github.com/ReadyTalk/avian)-JVM与JIT，AOT模式和iOS端口。
@@ -555,7 +555,7 @@ _ JVM/JDK的当前实现。_
 - [Zulu](https://www.azul.com/products/zulu-community/)-适用于Windows、Linux和macOS的OpenJDK版本。(与Classpath-exception-2.0 GPL-2.0-only)
 ### 日志记录
 
-_ 记录应用程序行为的库。_ 
+_记录应用程序行为的库。_ 
 
 - [Apache Log4j 2](https://logging.apache.org/log4j/)-完整的重写与强大的插件和配置架构。
 - [Echopraxia](https://github.com/tersesystems/echopraxia)-围绕结构化日志记录，丰富的上下文和条件日志记录设计的API。有Logback和Log4J2实现，但echoprawia的API是完全无依赖关系的，这意味着它可以用任何日志API实现。
@@ -570,7 +570,7 @@ _ 记录应用程序行为的库。_
 - [OpenTracing Toolbox](https://github.com/zalando/opentracing-toolbox)-建立在OpenTracing之上的库集合，并为现有仪器提供扩展和插件。
 ### 机器学习
 
-_ 提供用于从数据中学习的特定统计算法的工具。_ 
+_提供用于从数据中学习的特定统计算法的工具。_ 
 
 - [Apache Flink](https://flink.apache.org)-快速，可靠，大规模数据处理引擎。
 - [Apache Mahout](https://mahout.apache.org)-专注于协同过滤，聚类和分类的可扩展算法。
@@ -589,7 +589,7 @@ _ 提供用于从数据中学习的特定统计算法的工具。_
 - [Weka](https://www.cs.waikato.ac.nz/ml/weka/)-从预处理到可视化的数据挖掘任务的算法集合。(GPL-3.0-only)
 ### 消息传递
 
-_ 帮助在客户端之间发送消息以确保协议独立性的工具。_ 
+_帮助在客户端之间发送消息以确保协议独立性的工具。_ 
 
 - [Aeron](https://github.com/real-logic/Aeron)-高效，可靠，单播和多播消息传输。
 - [Apache ActiveMQ](https://activemq.apache.org)-实现JMS并将同步通信转换为异步通信的Message broker。
@@ -608,7 +608,7 @@ _ 帮助在客户端之间发送消息以确保协议独立性的工具。_
 - [NATS client](https://github.com/nats-io/nats.java)-NATS的客户.
 ### 微服务
 
-_ 用于创建和管理微服务的工具。_ 
+_用于创建和管理微服务的工具。_ 
 
 - [ActiveRPC](https://rpc.activej.io)-轻量级和快速的库，用于复杂的高负载分布式应用程序和类似Memcached的解决方案。
 - [Apollo](https://spotify.github.io/apollo/)-用于编写可组合微服务的库。
@@ -626,7 +626,7 @@ _ 用于创建和管理微服务的工具。_
 - [Sentinel](https://github.com/alibaba/Sentinel)-流量控制组件，实现微服务的可靠性、弹性和监控。
 ### 杂项
 
-_ 其他一切。_ 
+_其他一切。_ 
 
 - [AWS SDK for Java 2.0](https://github.com/aws/aws-sdk-java-v2)-围绕aws的API进行包装。
 - [CQEngine](https://github.com/npgall/cqengine)-Java集合上的超快速，类似SQL的查询。
@@ -663,14 +663,14 @@ _ 其他一切。_
 - [yGuard](https://github.com/yWorks/yGuard)-通过重命名和收缩混淆。
 ### 移动开发
 
-_ 用于创建或管理移动应用程序的工具。_ 
+_用于创建或管理移动应用程序的工具。_ 
 
 - [Codename One](https://www.codenameone.com)-用于编写本地移动应用程序的跨平台解决方案。(与Classpath-exception-2.0 GPL-2.0-only)
 - [MobileUI](https://mobileui.dev)-跨平台框架，用于在Java和Kotlin中开发具有本机UI的移动应用程序。
 - [Multi-OS Engine](https://multi-os-engine.org)-开源，跨平台引擎，用于开发本地移动 (iOS，Android等) 应用程序。
 ### 监测
 
-_ 监视生产中的应用程序的工具。_ 
+_监视生产中的应用程序的工具。_ 
 
 - [Automon](https://github.com/stevensouza/automon)-将AOP的功能与监视和/或日志记录工具相结合。
 - [Failsafe Actuator](https://github.com/zalando/failsafe-actuator)-Spring-Boot环境中的故障安全断路器的开箱即用监控。
@@ -695,7 +695,7 @@ _ 监视生产中的应用程序的工具。_
 - [hippo4j](https://github.com/opengoofy/hippo4j/blob/develop/README-EN.md)-动态和可观察的线程池框架。
 ### 原生
 
-_ 用于处理特定于平台的本机库。_ 
+_用于处理特定于平台的本机库。_ 
 
 - [Aparapi](https://github.com/Syncleus/aparapi)-将字节码转换为允许在gpu上执行的OpenCL。
 - [JavaCPP](https://github.com/bytedeco/javacpp)-提供高效和方便地访问本机C。
@@ -703,7 +703,7 @@ _ 用于处理特定于平台的本机库。_
 - [JNR](https://github.com/jnr/jnr-ffi)-在不编写JNI的情况下使用本机库。还提供了通用系统库的接口。与JNA相同的目标，但速度更快，并作为即将到来的[Project Panama](http://openjdk.java.net/projects/panama)。
 ### 自然语言处理
 
-_ 专门处理文本的库。_ 
+_专门处理文本的库。_ 
 
 - [CogCompNLP](https://github.com/CogComp/cogcomp-nlp)-为纯文本输入提供通用注释器。(研究和学术使用许可证)
 - [CoreNLP](https://nlp.stanford.edu/software/corenlp.shtml)-为标记、命名实体识别和情感分析等任务提供了一组基本工具。(GPL-3.0-or-later)
@@ -711,7 +711,7 @@ _ 专门处理文本的库。_
 - [LingPipe](http://alias-i.com/lingpipe/)-用于从POS标记到情感分析的任务的工具包。
 ### 联网
 
-_ 用于构建网络服务器的库。_ 
+_用于构建网络服务器的库。_ 
 
 - [Commons-networking](https://github.com/CiscoSE/commons-networking)-服务器发送事件 (SSE) 的客户端。
 - [Comsat](https://github.com/puniverse/comsat)-将标准的Java web相关api与Quasar纤维和actor集成在一起。
@@ -730,7 +730,7 @@ _ 用于构建网络服务器的库。_
 - [Fluency](https://github.com/komamitsu/fluency)-到Fluentd和Fluent Bit的高吞吐量数据摄取记录器。
 ### ORM
 
-_ 处理对象持久性的api。_ 
+_处理对象持久性的api。_ 
 
 - [Apache Cayenne](https://cayenne.apache.org)-为数据访问提供干净的静态API。还包括一个GUI建模器，用于处理数据库映射以及数据库逆向工程和生成。
 - [Doma](https://github.com/domaframework/doma)-数据库访问框架，在编译时使用注释处理以及称为双向SQL的本机SQL模板来验证和生成源代码。
@@ -743,7 +743,7 @@ _ 处理对象持久性的api。_
 - [SimpleFlatMapper](https://github.com/arnaudroger/SimpleFlatMapper)-简单的数据库和CSV映射器。
 ### PaaS
 
-_ Java平台即服务。_ 
+_Java平台即服务。_ 
 
 - [AWS Elastic Beanstalk ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://aws.amazon.com/elasticbeanstalk/)-基于AWS，支持Tomcat和Jetty。
 - [AWS Lambda ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://aws.amazon.com/lambda/)-无服务器计算。
@@ -753,7 +753,7 @@ _ Java平台即服务。_
 - [OpenShift ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://www.openshift.com)-另外提供内部部署解决方案。
 ### PDF
 
-_ 帮助处理pdf文件的工具。_ 
+_帮助处理pdf文件的工具。_ 
 
 - [Apache FOP](https://xmlgraphics.apache.org/fop/)-从xsl-fo创建pdf。
 - [Apache PDFBox](https://pdfbox.apache.org)-用于创建和操作pdf的工具箱。
@@ -768,7 +768,7 @@ _ 帮助处理pdf文件的工具。_
 - [Tabula](https://github.com/tabulapdf/tabula-java)-从pdf文件中提取表格。
 ### 性能分析
 
-_ 用于性能分析、分析和基准测试的工具。_ 
+_用于性能分析、分析和基准测试的工具。_ 
 
 - [fastThread ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://fastthread.io)-使用免费的基于云的上传界面分析和可视化线程转储。
 - [GCeasy ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://gceasy.io)-分析和可视化GC日志的工具。它提供了一个免费的基于云的上传界面。
@@ -779,7 +779,7 @@ _ 用于性能分析、分析和基准测试的工具。_
 - [LatencyUtils](https://github.com/LatencyUtils/LatencyUtils)-用于延迟测量和报告的实用程序。
 ### 站台
 
-_ 框架是包含多个类别的多个库的套件。_ 
+_框架是包含多个类别的多个库的套件。_ 
 
 #### Apache Commons
 
@@ -845,14 +845,14 @@ _ 框架是包含多个类别的多个库的套件。_
 - [Spring](https://spring.io/projects/)-提供了许多用于依赖注入，面向方面编程，安全性等的软件包。
 ### 流程
 
-_ 帮助管理操作系统进程的库。_ 
+_帮助管理操作系统进程的库。_ 
 
 - [ch.vorburger.exec](https://github.com/vorburger/ch.vorburger.exec)-围绕Apache Commons Exec的便捷API。
 - [zt-exec](https://github.com/zeroturnaround/zt-exec)-为Apache Commons Exec和ProcessBuilder提供统一的API。
 - [zt-process-killer](https://github.com/zeroturnaround/zt-process-killer)-停止从Java启动的进程或通过PID的系统进程。
 ### 反应式库
 
-_ 用于开发反应式应用程序的库。_ 
+_用于开发反应式应用程序的库。_ 
 
 - [Akka](https://akka.io)-用于构建并发，分布式，容错和事件驱动应用程序的工具包和运行时。
 - [Reactive Streams](https://github.com/reactive-streams/reactive-streams-jvm)-提供具有非阻塞背压的异步流处理的标准。
@@ -861,7 +861,7 @@ _ 用于开发反应式应用程序的库。_
 - [vert.x](https://vertx.io)-多语言事件驱动的应用程序框架。
 ### REST框架
 
-_ 专门用于创建RESTful服务的框架。_ 
+_专门用于创建RESTful服务的框架。_ 
 
 - [Dropwizard](https://github.com/dropwizard/dropwizard)-自以为是的框架，用于使用Jetty，Jackson，Jersey和Metrics设置现代web应用程序。
 - [Elide](https://elide.io)-基于JPA数据模型的JSON或GraphQL api的自以为是的框架。
@@ -878,7 +878,7 @@ _ 专门用于创建RESTful服务的框架。_
 - [Swagger](https://swagger.io)-REST api的标准语言无关接口。
 ### 科学
 
-_ 用于科学计算、分析和可视化的库。_ 
+_用于科学计算、分析和可视化的库。_ 
 
 - [BioJava](https://biojava.org/)-通过提供生物信息学中常用的算法，文件格式解析器，测序和3D可视化，促进处理生物数据。
 - [Chart-FX](https://github.com/GSI-CS-CO/chart-fx)-科学图表库，重点是针对大型数据集以25 hz的更新速率进行性能优化的实时数据可视化。
@@ -896,7 +896,7 @@ _ 用于科学计算、分析和可视化的库。_
 - [XChart](https://github.com/knowm/XChart)-用于绘制数据的轻量级库。有许多可自定义的图表类型。
 ### 搜索
 
-_ 索引文档以进行搜索和分析的引擎。_ 
+_索引文档以进行搜索和分析的引擎。_ 
 
 - [Apache Lucene](https://lucene.apache.org)-高性能，全功能，跨平台，文本搜索引擎库。
 - [Apache Solr](https://lucene.apache.org/solr/)-针对高流量优化的企业搜索引擎。
@@ -904,7 +904,7 @@ _ 索引文档以进行搜索和分析的引擎。_
 - [Indexer4j](https://github.com/haeungun/indexer4j)-简单而轻便的全文索引和搜索库。
 ### 安全
 
-_ 处理安全性、身份验证、授权或会话管理的库。_ 
+_处理安全性、身份验证、授权或会话管理的库。_ 
 
 - [Apache Shiro](https://shiro.apache.org)-执行身份验证，授权，加密和会话管理。
 - [Bouncy Castle](https://www.bouncycastle.org/java.html)-通用加密库和JCA提供程序提供广泛的功能，从基本的助手到PGP/SMIME操作。
@@ -931,7 +931,7 @@ _ 处理安全性、身份验证、授权或会话管理的库。_
 - [Topaz](https://www.topaz.sh)-对支持RBAC、ABAC和ReBAC的应用程序进行细粒度授权。
 ### 序列化
 
-_ 高效处理序列化的库。_ 
+_高效处理序列化的库。_ 
 
 - [FlatBuffers](https://github.com/google/flatbuffers)-内存高效的序列化库，可以访问序列化数据，而无需解包和解析。
 - [FST](https://github.com/RuedigerMoeller/fast-serialization)-JDK兼容，高性能对象图序列化。
@@ -940,7 +940,7 @@ _ 高效处理序列化的库。_
 - [PHP Serializer](https://github.com/marcospassos/java-php-serializer)-以PHP序列化格式序列化对象。
 ### 服务器
 
-_ 专门用于部署应用程序的服务器。_ 
+_专门用于部署应用程序的服务器。_ 
 
 - [Apache Tomcat](https://tomcat.apache.org)-用于Servlet和JSP的健壮、全面的服务器。
 - [Apache TomEE](https://tomee.apache.org)-Tomcat加上Java EE。
@@ -949,7 +949,7 @@ _ 专门用于部署应用程序的服务器。_
 - [WildFly](https://www.wildfly.org)-以前称为JBoss，由Red Hat开发，具有广泛的Java EE支持。(LGPL-2.1-only)
 ### 模板引擎
 
-_ 在模板中替换表达式的工具。_ 
+_在模板中替换表达式的工具。_ 
 
 - [Freemarker](https://freemarker.apache.org)-基于模板和更改数据生成文本输出 (HTML网页，电子邮件，配置文件，源代码等) 的库。
 - [Handlebars.java](https://jknack.github.io/handlebars.java/)-无逻辑和语义胡子模板。
@@ -964,11 +964,11 @@ _ 在模板中替换表达式的工具。_
 - [Thymeleaf](https://www.thymeleaf.org)-旨在替代JSP并适用于XML文件。
 ### 测试
 
-_ 从模型到视图进行测试的工具。_ 
+_从模型到视图进行测试的工具。_ 
 
 #### 异步
 
-_ 简化测试异步服务的工具。_ 
+_简化测试异步服务的工具。_ 
 
 - [Awaitility](https://github.com/awaitility/awaitility)-用于同步异步操作的DSL。
 - [ConcurrentUnit](https://github.com/jhalterman/concurrentunit)-用于测试多线程和异步应用程序的工具包。
@@ -979,7 +979,7 @@ _ 简化测试异步服务的工具。_
 - [WebTau](https://github.com/testingisdocumenting/webtau)-使用一致的匹配程序和概念集，跨REST API，图形QL，浏览器，数据库，CLI和业务逻辑进行测试。
 #### BDD
 
-_ TDD产生的软件开发过程的测试，受到DDD和OOAD的严重影响。_ 
+_TDD产生的软件开发过程的测试，受到DDD和OOAD的严重影响。_ 
 
 - [Cucumber](https://github.com/cucumber/cucumber-jvm)-提供了一种以客户可以理解的简单语言描述功能的方法。
 - [Cukes-REST](https://github.com/ctco/cukes)-使用黄瓜进行REST服务测试的小黄瓜步骤集合。
@@ -990,7 +990,7 @@ _ TDD产生的软件开发过程的测试，受到DDD和OOAD的严重影响。_
 - [Serenity BDD](https://github.com/serenity-bdd/serenity-core)-自动验收测试和报告库，与黄瓜，j行为和JUnit的工作，使它更容易编写高质量的可执行规范。
 #### 固定装置
 
-_ 与创建和处理随机数据有关的一切。_ 
+_与创建和处理随机数据有关的一切。_ 
 
 - [Beanmother](https://github.com/keepcosmos/beanmother)-从YAML fixtures设置bean。
 - [Fixture Factory](https://github.com/six2six/fixture-factory)-从模板生成假对象。
@@ -1001,7 +1001,7 @@ _ 与创建和处理随机数据有关的一切。_
 - [Mockneat](https://github.com/nomemory/mockneat)-另一个假数据生成器。
 #### 框架
 
-_ 为特定用例提供运行测试的环境。_ 
+_为特定用例提供运行测试的环境。_ 
 
 - [ArchUnit](https://github.com/TNG/ArchUnit)-用于指定和断言架构规则的测试库。
 - [Apache JMeter](http://jmeter.apache.org)-功能测试和性能测量。
@@ -1014,7 +1014,7 @@ _ 为特定用例提供运行测试的环境。_
 - [PIT](http://pitest.org)-快速突变测试框架，用于评估现有JUnit或TestNG测试套件的故障检测能力。
 #### 匹配程序
 
-_ 提供自定义匹配程序的库。_ 
+_提供自定义匹配程序的库。_ 
 
 - [AssertJ](https://joel-costigliola.github.io/assertj/)-流利的断言，提高可读性。
 - [Hamcrest](http://hamcrest.org/JavaHamcrest/)-可以组合以创建灵活的意图表达的匹配器。
@@ -1024,7 +1024,7 @@ _ 提供自定义匹配程序的库。_
 - [XMLUnit](https://github.com/xmlunit/xmlunit)-简化了XML输出的测试。
 #### 杂项
 
-_ 其他与测试有关的东西。_ 
+_其他与测试有关的东西。_ 
 
 - [ConsoleCaptor](https://github.com/Hakky54/console-captor)-捕获用于单元测试目的的控制台输出。
 - [junit-dataprovider](https://github.com/TNG/junit-dataprovider)-用于JUnit的类似TestNG的数据提供程序/运行程序。
@@ -1036,7 +1036,7 @@ _ 其他与测试有关的东西。_
 - [pojo-tester](https://www.pojo.pl)-自动对基本POJO方法执行测试。(LGPL-3.0-only)
 #### 嘲笑
 
-_ 模拟协作者以帮助测试单个隔离单元的工具。_ 
+_模拟协作者以帮助测试单个隔离单元的工具。_ 
 
 - [JMockit](http://jmockit.github.io)-集成测试，API模拟和伪造以及代码覆盖率。
 - [Mockito](https://github.com/mockito/mockito)-Mocking框架，让您使用干净简单的API编写测试。
@@ -1046,7 +1046,7 @@ _ 模拟协作者以帮助测试单个隔离单元的工具。_
 - [WireMock](http://wiremock.org)-存根和模拟web服务。
 ### 实用程序
 
-_ 提供通用实用功能的库。_ 
+_提供通用实用功能的库。_ 
 
 - [Arthas](https://github.com/alibaba/arthas)-允许对应用程序的生产问题进行故障排除，而无需修改代码或重新启动服务器。
 - [bucket4j](https://github.com/vladimir-bukhtoyarov/bucket4j)基于令牌桶算法的限速库。
@@ -1067,14 +1067,14 @@ _ 提供通用实用功能的库。_
 - [Underscore-java](https://github.com/javadev/underscore-java)-Underscore.js函数的端口。
 ### 版本管理器
 
-_ 帮助创建开发shell环境并在不同Java版本之间切换的实用程序。_ 
+_帮助创建开发shell环境并在不同Java版本之间切换的实用程序。_ 
 
 - [jabba](https://github.com/shyiko/jabba)-受nvm启发的Java版本管理器。支持macOS，Linux和Windows。
 - [jenv](https://github.com/jenv/jenv)-受rbenv启发的Java版本管理器。可以全局配置或按项目配置。在Debian和macOS上测试。
 - [SDKMan](https://github.com/sdkman/sdkman-cli)-受RVM和rbenv启发的Java版本管理器。支持基于UNIX的平台和Windows。
 ### Web爬行
 
-_ 分析网站内容的库。_ 
+_分析网站内容的库。_ 
 
 - [Apache Nutch](https://nutch.apache.org)-用于生产环境的高度可扩展、高度可扩展的网络爬虫。
 - [Crawler4j](https://github.com/yasserg/crawler4j)-简单和轻量级的网络爬虫。
@@ -1083,7 +1083,7 @@ _ 分析网站内容的库。_
 - [webmagic](https://github.com/code4craft/webmagic)-具有下载，url管理，内容提取和持久性的可扩展爬虫。
 ### Web框架
 
-_ 处理web应用程序各层之间通信的框架。_ 
+_处理web应用程序各层之间通信的框架。_ 
 
 - [ActiveJ](https://activej.io)-为开发高性能web应用程序而从头开始构建的轻量级异步框架。
 - [Apache Tapestry](https://tapestry.apache.org)-面向组件的框架，用于创建动态，健壮，高度可扩展的web应用程序。
@@ -1109,7 +1109,7 @@ _ 处理web应用程序各层之间通信的框架。_
 
 ### 相关的Awesome 列表
 
-_ 与Java和JVM生态系统相关的很棒的列表。_ 
+_与Java和JVM生态系统相关的很棒的列表。_ 
 
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
@@ -1125,19 +1125,19 @@ _ 与Java和JVM生态系统相关的很棒的列表。_
 - [Java Developer Roadmap](https://github.com/s4kibs4mi/java-developer-roadmap)
 ### 社区
 
-_ 积极的讨论。_ 
+_积极的讨论。_ 
 
 - [r/java](https://www.reddit.com/r/java/)-Subreddit的Java社区。
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/java)-问题/答案平台。
 - [VirtualJUG](https://virtualjug.com)-虚拟Java用户组。
 ### 前端
 
-_ 为此列表提供前端的网站。请注意，不会有官方网站。我们不与特定网站相关联，每个人都可以创建一个。_ 
+_为此列表提供前端的网站。请注意，不会有官方网站。我们不与特定网站相关联，每个人都可以创建一个。_ 
 
 - [java.libhunt.com](https://java.libhunt.com)
 ### 有影响力的书籍
 
-_ 这些书产生了很大的影响，仍然值得一读。_ 
+_这些书产生了很大的影响，仍然值得一读。_ 
 
 - [Core Java Volume I--Fundamentals](https://www.amazon.com/Core-Java-I-Fundamentals-10th/dp/0134177304)
 - [Core Java, Volume II--Advanced Features](https://www.amazon.com/Core-Java-II-Advanced-Features-10th/dp/0134177290)
@@ -1147,7 +1147,7 @@ _ 这些书产生了很大的影响，仍然值得一读。_
 - [Head First Java (3rd Edition)](https://www.oreilly.com/library/view/head-first-java/9781492091646/)
 ### 播客和截屏
 
-_ 编程时要看或听的东西。_ 
+_编程时要看或听的东西。_ 
 
 - [140 Second Ducklings](https://twitter.com/debugagent/status/1491075324805001219)-在Twitter上的短视频深入解释Java调试。
 - [A Bootiful Podcast](https://bootifulpodcast.fm)
@@ -1160,7 +1160,7 @@ _ 编程时要看或听的东西。_
 
 #### Twitter
 
-_ 要关注的活跃帐户。来自Twitter的描述_ 
+_要关注的活跃帐户。来自Twitter的描述_ 
 
 - [Adam Bien](https://twitter.com/AdamBien)-自由作家，JavaOne Rockstar演讲者，顾问，Java冠军。
 - [Aleksey Shipilëv](https://twitter.com/shipilev)-性能极客，基准沙皇，并发bug猎人。
@@ -1205,7 +1205,7 @@ _ 要关注的活跃帐户。来自Twitter的描述_
 - [Groundbreakers](https://apexapps.oracle.com/pls/apex/f?p=119297:3::::::)-甲骨文王牌，开创性大使和Java冠军。
 ### 网站
 
-_ 要阅读的网站。_ 
+_要阅读的网站。_ 
 
 - [Baeldung](https://www.baeldung.com)
 - [Dzone](https://dzone.com)
