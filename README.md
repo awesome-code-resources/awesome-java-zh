@@ -1,5 +1,5 @@
-如果您觉得这个项目对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
-# 很棒的Java[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+如果您觉得这个[项目](https://github.com/awesome-code-resources/awesome-java-zh)对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
+# Awesome Java[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 精选的Java框架，库和软件列表。
 
@@ -1109,7 +1109,7 @@ _处理web应用程序各层之间通信的框架。_
 
 ### 相关的Awesome 列表
 
-_与Java和JVM生态系统相关的很棒的列表。_ 
+_与Java和JVM生态系统相关的Awesome 列表。_ 
 
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
