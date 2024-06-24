@@ -1,4 +1,5 @@
 如果您觉得这个[项目](https://github.com/awesome-code-resources/awesome-java-zh)对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
+本项目的原始仓库地址为[这里](https://github.com/akullpp/awesome-java)。
 # Awesome Java[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 精选的Java框架，库和软件列表。
