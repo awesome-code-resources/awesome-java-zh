@@ -1,5 +1,5 @@
 如果您觉得这个[项目](https://github.com/awesome-code-resources/awesome-java-zh)对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
-# Awesome Java [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Java[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 精选的Java框架，库和软件列表。
 
@@ -75,7 +75,7 @@
   - [Web框架](#Web框架)
   - [工作流编排引擎](#工作流编排引擎)
 - [资源](#资源)
-  - [相关的真棒列表](#相关的真棒列表)
+  - [相关的Awesome 列表](#相关的Awesome 列表)
   - [社区](#社区)
   - [前端](#前端)
   - [有影响力的书籍](#有影响力的书籍)
@@ -1107,9 +1107,9 @@ _处理web应用程序各层之间通信的框架。_
 - [Temporal](https://temporal.io)-微服务编排平台，从Cadence分叉，但基于gRPC。
 ## 资源
 
-### 相关的真棒列表
+### 相关的Awesome 列表
 
-_与Java和JVM生态系统相关的很棒的列表。_ 
+_与Java和JVM生态系统相关的Awesome 列表。_ 
 
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
@@ -1181,7 +1181,7 @@ _要关注的活跃帐户。来自Twitter的描述_
 - [Javin Paul](https://twitter.com/javinpaul)-著名的Java博客。
 - [Josh Long](https://twitter.com/starbuxman)-Pivotal的Spring倡导者，O'Reilly's Cloud Native Java的作者-以及使用JavaOne摇滚明星Spring Boot构建微服务。
 - [Lukas Eder](https://twitter.com/lukaseder)-Java冠军、演讲者、创始人兼首席执行官数据极客 (jOOQ)。
-- [Mani Sarkar](https://twitter.com/theNeomatrix369)-Java冠军，多语言，涉及 @ graalvm，AI/ML/DL，数据科学，开发人员社区，演讲者和博客的软件工匠。像这样的几个令人敬畏的列表的创建者。
+- [Mani Sarkar](https://twitter.com/theNeomatrix369)-Java冠军，多语言，涉及 @ graalvm，AI/ML/DL，数据科学，开发人员社区，演讲者和博客的软件工匠。像这样的几个Awesome 列表的创建者。
 - [Mario Fusco](https://twitter.com/mariofusco)-RedHatter，JUG协调员，经常演讲和作者。
 - [Mark Heckler](https://twitter.com/MkHeck)-Pivotal首席技术专家和开发人员倡导者，会议发言人，出版作者和Java冠军，专注于物联网和云。
 - [Mark Reinhold](https://twitter.com/mreinhold)-Oracle Java平台组首席架构师。
