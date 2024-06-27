@@ -1,7 +1,6 @@
 如果您觉得这个[项目](https://github.com/awesome-code-resources/awesome-java-zh)对您有帮助，就请点右上角的**Star**按钮为它加星星✨✨ 其他TIOBE Top 20编程语言的中文翻译请看[awesome-code-resources](https://github.com/awesome-code-resources/awesome-code-resources)。
 本项目的原始仓库地址为[这里](https://github.com/akullpp/awesome-java)。
-# Awesome Java[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
+# Awesome Java [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 精选的Java框架，库和软件列表。
 
 ## 内容
@@ -76,7 +75,7 @@
   - [Web框架](#Web框架)
   - [工作流编排引擎](#工作流编排引擎)
 - [资源](#资源)
-  - [相关的Awesome 列表](#相关的Awesome 列表)
+  - [相关的真棒列表](#相关的真棒列表)
   - [社区](#社区)
   - [前端](#前端)
   - [有影响力的书籍](#有影响力的书籍)
@@ -388,7 +387,7 @@ _协助处理office文档格式的库。_
 - [zerocell](https://github.com/creditdatamw/zerocell)-基于注释的API，用于将数据从Excel工作表读取到pojo中，重点是减少开销。
 ### 财务
 
-_与金融领域相关的库。_ 
+_与金融领域相关的图书馆。_ 
 
 - [Cassandre](https://github.com/cassandre-tech/cassandre-trading-bot)-交易bot框架。
 - [Parity](https://github.com/paritytrading/parity)-交易场所平台。
@@ -435,7 +434,7 @@ _支持游戏开发的框架。_
 
 _用于处理地理空间数据和算法的库。_ 
 
-- [Apache SIS](https://sis.apache.org)-开发地理空间应用程序的库。
+- [Apache SIS](https://sis.apache.org)-开发地理空间应用程序的图书馆。
 - [ArcGIS Maps SDK for Java ![c](https://cdn.rawgit.com/akullpp/23246ca832bda82bb505230bf3538e2a/raw/d9bcdb769bf025292f9c6bc1290f01f1fcd1f864/commercial.svg)](https://github.com/Esri/arcgis-maps-sdk-java-samples/)-用于向桌面应用程序添加映射和GIS功能的JavaFX库。
 - [Geo](https://github.com/davidmoten/geo)-Java中的GeoHash实用程序。
 - [GeoTools](https://geotools.org)-提供地理空间数据工具的库。(LGPL-2.1-only)
@@ -443,7 +442,7 @@ _用于处理地理空间数据和算法的库。_
 - [H2GIS](http://www.h2gis.org)-H2数据库的空间扩展。(LGPL-3.0-only)
 - [Jgeohash](https://astrapi69.github.io/jgeohash/)-使用GeoHash算法的库。
 - [Mapsforge](https://github.com/mapsforge/mapsforge)基于OpenStreetMap数据的地图渲染。(LGPL-3.0-only)
-- [Spatial4j](https://github.com/locationtech/spatial4j)-通用空间/地理空间库。
+- [Spatial4j](https://github.com/locationtech/spatial4j)-通用空间/地理空间图书馆。
 ### GUI
 
 _库来创建现代图形用户界面。_ 
@@ -539,7 +538,7 @@ _用于将JSON与Java对象进行序列化和反序列化的库。_
 - [Jackson](https://github.com/FasterXML/jackson)-与GSON类似，但如果您需要更频繁地实例化库，则可以提供性能提升。
 - [JSON-io](https://github.com/jdereg/json-io)-将Java转换为JSON。将JSON转换为Java。漂亮的打印JSON。Java JSON序列化程序。
 - [jsoniter](http://jsoniter.com)-快速和灵活的库与迭代器和惰性解析API。
-- [LoganSquare](https://github.com/bluelinelabs/LoganSquare)-基于Jackson的流API的JSON解析和序列化库。胜过GSON & Jackson的库。
+- [LoganSquare](https://github.com/bluelinelabs/LoganSquare)-基于Jackson的流API的JSON解析和序列化库。胜过GSON & Jackson的图书馆。
 - [Moshi](https://github.com/square/moshi)-现代JSON库，不太固执己见，并使用内置类型，如列表和地图。
 - [Yasson](https://github.com/eclipse-ee4j/yasson)-类和JSON文档之间的绑定层，类似于JAXB。
 - [fastjson](https://github.com/alibaba/fastjson)-非常快速的处理器，没有额外的依赖关系和完整的数据绑定。
@@ -894,7 +893,7 @@ _专门用于创建RESTful服务的框架。_
 - [Swagger](https://swagger.io)-REST api的标准语言无关接口。
 ### 科学
 
-_用于科学计算、分析和可视化的库。_ 
+_用于科学计算、分析和可视化的图书馆。_ 
 
 - [BioJava](https://biojava.org/)-通过提供生物信息学中常用的算法，文件格式解析器，测序和3D可视化，促进处理生物数据。
 - [Chart-FX](https://github.com/GSI-CS-CO/chart-fx)-科学图表库，重点是针对大型数据集以25 hz的更新速率进行性能优化的实时数据可视化。
@@ -1098,7 +1097,7 @@ _帮助创建开发shell环境并在不同Java版本之间切换的实用程序�
 - [SDKMan](https://github.com/sdkman/sdkman-cli)-受RVM和rbenv启发的Java版本管理器。支持基于UNIX的平台和Windows。
 ### Web爬行
 
-_分析网站内容的库。_ 
+_分析网站内容的图书馆。_ 
 
 - [Apache Nutch](https://nutch.apache.org)-用于生产环境的高度可扩展、高度可扩展的网络爬虫。
 - [Crawler4j](https://github.com/yasserg/crawler4j)-简单和轻量级的网络爬虫。
@@ -1131,9 +1130,9 @@ _处理web应用程序各层之间通信的框架。_
 - [Temporal](https://temporal.io)-微服务编排平台，从Cadence分叉，但基于gRPC。
 ## 资源
 
-### 相关的Awesome 列表
+### 相关的真棒列表
 
-_与Java和JVM生态系统相关的Awesome 列表。_ 
+_与Java和JVM生态系统相关的很棒的列表。_ 
 
 - [Awesome Annotation Processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 - [Awesome Graal](https://github.com/neomatrix369/awesome-graal)
@@ -1205,7 +1204,7 @@ _要关注的活跃帐户。来自Twitter的描述_
 - [Javin Paul](https://twitter.com/javinpaul)-著名的Java博客。
 - [Josh Long](https://twitter.com/starbuxman)-Pivotal的Spring倡导者，O'Reilly's Cloud Native Java的作者-以及使用JavaOne摇滚明星Spring Boot构建微服务。
 - [Lukas Eder](https://twitter.com/lukaseder)-Java冠军、演讲者、创始人兼首席执行官数据极客 (jOOQ)。
-- [Mani Sarkar](https://twitter.com/theNeomatrix369)-Java冠军，多语言，涉及 @ graalvm，AI/ML/DL，数据科学，开发人员社区，演讲者和博客的软件工匠。像这样的几个Awesome 列表的创建者。
+- [Mani Sarkar](https://twitter.com/theNeomatrix369)-Java冠军，多语言，涉及 @ graalvm，AI/ML/DL，数据科学，开发人员社区，演讲者和博客的软件工匠。像这样的几个令人敬畏的列表的创建者。
 - [Mario Fusco](https://twitter.com/mariofusco)-RedHatter，JUG协调员，经常演讲和作者。
 - [Mark Heckler](https://twitter.com/MkHeck)-Pivotal首席技术专家和开发人员倡导者，会议发言人，出版作者和Java冠军，专注于物联网和云。
 - [Mark Reinhold](https://twitter.com/mreinhold)-Oracle Java平台组首席架构师。
